@@ -43,11 +43,11 @@ function findInBasketByCode(code) {
 /* Switch items, in normal app would be a findByCode in DB */
 function findInDB(code) {
   if(code == 'AD45') {
-     return new Product('AD45','biscuits', 1.29, false, 1.29, 1, 0);
+     return new Product('AD45','biscuits', 1.29, false, 1.29, 1);
   }else if(code == 'E12R') {
-    return new Product('E12R','juice', 0.53, true, 0.53, 3, 1, 'nfree');
+    return new Product('E12R','juice', 0.53, true, 0.53, 3, 'nfree');
   }else if(code == 'PP45') {
-    return new Product('PP45','popcorn', 1.50, true, 1, 2, 0, 'discount');
+    return new Product('PP45','popcorn', 1.50, true, 1, 2, 'discount');
   }
 }
 

@@ -1,5 +1,5 @@
 //entities.js
-function Product(code, name, unitPrice, hasOffer, offerPrice, quantityCondition, nFree, type) {
+function Product(code, name, unitPrice, hasOffer, offerPrice, quantityCondition, type) {
   this.code = code;
   this.name = name;
   this.unitPrice = unitPrice;
@@ -7,7 +7,6 @@ function Product(code, name, unitPrice, hasOffer, offerPrice, quantityCondition,
   this.hasOffer = hasOffer;
   this.offerPrice = offerPrice;
   this.offerQuantityCondition = quantityCondition;
-  this.nFree = nFree;
   this.type = type;
   this.total = 0.0;
 }
